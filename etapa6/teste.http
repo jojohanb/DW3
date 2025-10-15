@@ -1,0 +1,8 @@
+GET http://localhost:3000/api/contatos
+POST http://localhost:3000/api/contatos
+Content-Type: application/json
+
+{
+  "nome": "gio",
+  "email": "jojo@gmail.com"
+}
